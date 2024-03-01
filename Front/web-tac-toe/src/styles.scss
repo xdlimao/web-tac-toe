@@ -4,3 +4,20 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    height: 100vh;
+    background: linear-gradient(#0094FF, #000C37);
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
